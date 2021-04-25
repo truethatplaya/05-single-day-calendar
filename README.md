@@ -34,11 +34,11 @@ THEN the saved events persist
 
 ## Screenshot
 
-[Go to a screenshot of quiz](./assets/images/)
+[Go to a screenshot of The Daily Schedule](./assets/images/)
 
 ## Link to view The Daily Schedule in the browser
 
-[Go to password quiz in the brower](https://truethatplaya.github.io/05-single-day-calendar)
+[Go to The Daily Schedule in the browser](https://truethatplaya.github.io/05-single-day-calendar)
 
 ## Link to git hub repository "05-single-day-calendar"
 
