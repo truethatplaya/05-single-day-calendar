@@ -4,3 +4,32 @@
   margin-left: 4%;
   font-family: "Roboto", sans-serif;
 }
+
+.row {
+  display: flex;
+  justify-items: baseline;
+  align-items: center;
+}
+
+.hour {
+  color: teal;
+}
+
+.appointment {
+  background-color: gray;
+}
+.textArea {
+  width: 100%;
+  color: black;
+  background-color: lightgray;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.saveBtn {
+  background-color: powderblue;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
