@@ -20,24 +20,32 @@
     />
     <title>The Daily Schedule</title>
   </head>
-  <!-- EVERYTHING ABOVE THIS LINE IS SOURCE CODE-->
-  <!-- EVERYTHING BELOW THIS LINE IS CODE RELATED TO BODY-->
+
   <body>
-    <!-- This is the header where the current time will be displayed -->
-    <header class="header">
-      <h1>The Daily Schedule</h1>
-      <p>A simple calendar app for scheduling your work day</p>
+    <header class="jumbotron jumbotron-fluid">
+      <h1 class="display-4">The Daily Schedule</h1>
+      <p class="lead">
+        A simple calendar app for scheduling your work day.<br />The current
+        time is:
+      </p>
       <p id="rightNow" class="currentDate"></p>
     </header>
+
     <!--This is the form for the hourly timeslots-->
 
     <main class="container">
       <div class="row" id="9">
         <div class="col-3 hour" id="hour9">9 AM</div>
         <div class="col-8 appointment" id="appointment9">
-          <textarea rows="2" class="textArea"></textarea>
+          <textarea
+            type="text"
+            id="appointmentInput"
+            class="textArea"
+            placeholder="Appointment Title"
+          ></textarea>
+          <div id="lSOutput"></div>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn9">Save</button>
       </div>
 
       <div class="row" id="9">
@@ -45,7 +53,7 @@
         <div class="col-8 appointment" id="appointment10">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn10">Save</button>
       </div>
 
       <div class="row" id="9">
@@ -53,71 +61,71 @@
         <div class="col-8 appointment" id="appointment11">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn11">Save</button>
       </div>
 
       <div class="row" id="9">
         <div class="col-3 hour" id="hour12">12 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment12">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn12">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="1">
         <div class="col-3 hour" id="hour1">1 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment1">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn1">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="2">
         <div class="col-3 hour" id="hour2">2 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment2">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn2">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="3">
         <div class="col-3 hour" id="hour3">3 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment3">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn3">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="4">
         <div class="col-3 hour" id="hour4">4 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment4">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn4">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="5">
         <div class="col-3 hour" id="hour5">5 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment5">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn5">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="6">
         <div class="col-3 hour" id="hour6">6 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment6">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn6">Save</button>
       </div>
 
-      <div class="row" id="9">
+      <div class="row" id="7">
         <div class="col-3 hour" id="hour7">7 PM</div>
-        <div class="col-8 appointment" id="appointment11">
+        <div class="col-8 appointment" id="appointment7">
           <textarea rows="2" class="textArea"></textarea>
         </div>
-        <button class="col-1 saveBtn" id="saveBtn">Save</button>
+        <button class="col-1 saveBtn" id="saveBtn7">Save</button>
       </div>
     </main>
     <!--Jquery-->

@@ -1,35 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --baige: #f4f1de;
+  --coral: #e07a5f;
+  --blue: #3d405b;
+  --green: #81b29a;
+  --tan: #f2cc8f;
+}
+.jumbotron {
+  background-color: var(--green);
+  color: black;
+  text-align: center;
+  border-bottom: 5px dotted var(--blue);
+}
+
+#rightNow {
+  color: var(--blue);
+  font-size: ;
+}
 .currentDate {
-  color: rgb(124, 221, 231);
+  color: var(--blue);
   font-size: 25px;
-  margin-left: 4%;
-  font-family: "Roboto", sans-serif;
 }
 
 .row {
   display: flex;
   justify-items: baseline;
   align-items: center;
+  background-color: var(--baige);
 }
 
 .hour {
-  color: teal;
-  background-color: yellow;
+  color: black;
+}
+
+.input {
+  background-color: salmon;
 }
 
 .appointment {
   background-color: gray;
 }
+
 .textArea {
   width: 100%;
   color: black;
   background-color: lightgray;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  display: inline;
+}
+
+.saveBtnContainer {
+  background-color: var(--coral);
 }
 
 .saveBtn {
-  background-color: powderblue;
+  background-color: red;
+  height: 100%;
   /* display: flex;
   align-content: center;
   justify-content: center; */
